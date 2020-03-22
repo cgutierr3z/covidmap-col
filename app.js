@@ -20,7 +20,7 @@ var map = new Datamap({
     },
 
     geographyConfig: {
-      dataUrl: 'colombia.topo.json',
+      dataUrl: 'peru-departments.json',
       //dataJson: topoJsonData
       hideAntarctica: true,
       borderWidth: 1,
