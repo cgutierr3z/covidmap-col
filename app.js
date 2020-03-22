@@ -1,6 +1,6 @@
 var map = new Datamap({
-    element: document.getElementById('colombia'),
-    scope: 'colombia',
+    element: document.getElementById('peru-departments'),
+    scope: 'peru-departments',
     responsive: true, //if true, call `resize()` on the map object when it should adjust it's size
     done: function() {}, //callback when the map is done drawing
 
@@ -30,7 +30,7 @@ var map = new Datamap({
         //return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
 
         return ['<div class="card" style="padding:0">',
-        '<h5 class="card-header bg-info">' +  geography.properties.name + '</h5>',
+        '<h5 class="card-header bg-info">' +  geography.properties.NOMBDEP + '</h5>',
         '<div class="card-body"><table class="table text-left"><tbody>',
         '<tr><td class="text-secondary">Diagnosticados</td><td class="text-danger">' +  data.infectados + '</td></tr>',
         '<tr><td class="text-secondary">Muertes: </td><td class="text-dark">' +  data.muertos + '</td></tr>',
