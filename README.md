@@ -1,4 +1,5 @@
 # covidmap-col
+- https://cgutierr3z.github.io/covidmap-col/
 
 ![Screenshot](screenshot.png)
 
