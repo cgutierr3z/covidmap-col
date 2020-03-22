@@ -1,9 +1,9 @@
 id,infectados,muertos,curados,fillKey
 AMA,0,0,0,def
-ANT,22,0,0,C2
+ANT,25,0,0,C2
 ARA,0,0,0,def
-ATL,5,0,0,C1
-BOL,12,0,0,def
+ATL,7,0,0,C1
+BOL,14,1,0,def
 BOY,0,0,0,def
 CAL,3,0,0,C1
 CAQ,0,0,0,def
@@ -12,7 +12,7 @@ CAU,2,0,0,C1
 CES,0,0,0,def
 CHO,0,0,0,def
 COR,0,0,0,def
-CUN,89,0,1,C3
+CUN,96,0,1,C3
 GUA,0,0,0,def
 GUJ,0,0,0,def
 GUV,0,0,0,def
