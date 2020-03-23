@@ -28,13 +28,12 @@ var map = new Datamap({
       borderColor: '#FDFDFD',
       popupTemplate: function(geography, data) { //this function should just return a string
         //return '<div class="hoverinfo"><strong>' + geography.properties.name + '</strong></div>';
-
-        return ['<div class="card" style="padding:0">',
-        '<h5 class="card-header bg-info">' +  geography.properties.name + '</h5>',
+        //'<tr><td class="text-secondary">Curados: </td><td class="text-success">' +  data.curados + '</td></tr>',
+        return ['<div class="card" style="padding:0;font-size:">',
+        '<h6 class="card-header bg-info">' +  geography.properties.name + '</h6>',
         '<div class="card-body"><table class="table text-left"><tbody>',
         '<tr><td class="text-secondary">Diagnosticados</td><td class="text-danger">' +  data.infectados + '</td></tr>',
         '<tr><td class="text-secondary">Muertes: </td><td class="text-dark">' +  data.muertos + '</td></tr>',
-        '<tr><td class="text-secondary">Curados: </td><td class="text-success">' +  data.curados + '</td></tr>',
         '</tbody></table></div></div>'].join('');
       },
 
