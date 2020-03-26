@@ -1,9 +1,9 @@
 id,infectados,muertos,curados,fillKey
-CUN,191,0,1,C3
+CUN,208,0,1,C3
 ANT,59,0,0,C2
-VAC,71,1,0,C2
+VAC,73,1,0,C2
 BOL,26,1,0,C2
-ATL,12,0,0,C1
+ATL,13,0,0,C1
 MAG,5,1,0,C1
 CES,2,0,0,C1
 NSA,15,0,0,C2
@@ -18,4 +18,4 @@ MET,8,0,0,C1
 CAS,1,0,0,C1
 SAP,1,0,0,C1
 NAR,1,0,0,C1
-BOY,1,0,0,C1
+BOY,2,0,0,C1
